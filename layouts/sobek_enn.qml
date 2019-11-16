@@ -36,16 +36,16 @@ KeyboardLayout {
     splitSupported: true
 
     KeyboardRow {
-        CharacterKey { caption: "1"; captionShifted: "1";}
-        CharacterKey { caption: "2"; captionShifted: "2" }
-        CharacterKey { caption: "3"; captionShifted: "3" }
-        CharacterKey { caption: "4"; captionShifted: "4" }
-        CharacterKey { caption: "5"; captionShifted: "5" }
-        CharacterKey { caption: "6"; captionShifted: "6" }
-        CharacterKey { caption: "7"; captionShifted: "7" }
-        CharacterKey { caption: "8"; captionShifted: "8" }
-        CharacterKey { caption: "9"; captionShifted: "9" }
-        CharacterKey { caption: "0"; captionShifted: "0" }
+        CharacterKey { caption: "1"; captionShifted: "1"; symView: "😊"; symView2: "😮" }
+        CharacterKey { caption: "2"; captionShifted: "2"; symView: "😉"; symView2: "😐" }
+        CharacterKey { caption: "3"; captionShifted: "3"; symView: "😘"; symView2: "😛" }
+        CharacterKey { caption: "4"; captionShifted: "4"; symView: "😎"; symView2: "😄" }
+        CharacterKey { caption: "5"; captionShifted: "5"; symView: "😃"; symView2: "😕" }
+        CharacterKey { caption: "6"; captionShifted: "6"; symView: "❤"; symView2: "😞" }
+        CharacterKey { caption: "7"; captionShifted: "7"; symView: "😍"; symView2: "😢" }
+        CharacterKey { caption: "8"; captionShifted: "8"; symView: "😀"; symView2: "😭" }
+        CharacterKey { caption: "9"; captionShifted: "9"; symView: "😁"; symView2: "😠" }
+        CharacterKey { caption: "0"; captionShifted: "0"; symView: "😂"; symView2: "😴" }
     }
 
     KeyboardRow {

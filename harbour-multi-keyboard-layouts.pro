@@ -12,7 +12,7 @@
 # The name of your application
 TARGET = harbour-multi-keyboard-layouts
 
-layout.files = layouts/layouts_sobek_enazerty.conf layouts/layouts_sobek_ennazerty.conf layouts/layouts_sobek_enn.conf layouts/layouts_sobek_frn.conf layouts/sobek_enazerty.qml layouts/sobek_ennazerty.qml layouts/sobek_enn.qml layouts/sobek_frn.qml
+layout.files = layouts/layouts_sobek_enazerty.conf layouts/layouts_sobek_ennazerty.conf layouts/layouts_sobek_enn.conf layouts/layouts_sobek_frn.conf layouts/layouts_sobek_frn_me.conf layouts/sobek_enazerty.qml layouts/sobek_ennazerty.qml layouts/sobek_enn.qml layouts/sobek_frn.qml layouts/sobek_frn_me.qml
 layout.path = /usr/share/maliit/plugins/com/jolla/layouts
 
 INSTALLS += layout
@@ -27,10 +27,12 @@ DISTFILES += qml/harbour-multi-keyboard-layouts.qml \
     layouts/layouts_sobek_enn.conf \
     layouts/layouts_sobek_ennazerty.conf \
     layouts/layouts_sobek_frn.conf \
+    layouts/layouts_sobek_frn_me.conf \
     layouts/sobek_enazerty.qml \
     layouts/sobek_enn.qml \
     layouts/sobek_ennazerty.qml \
     layouts/sobek_frn.qml \
+    layouts/sobek_frn_me.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
     rpm/harbour-multi-keyboard-layouts.changes.in \
