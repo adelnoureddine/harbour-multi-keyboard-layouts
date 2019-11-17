@@ -106,6 +106,7 @@ KeyboardLayout {
             captionShifted: "'"
             implicitWidth: punctuationKeyWidthNarrow * 0.8
             fixedWidth: !splitActive
+            symView: ":"; symView2: "‰";
         }
 
         BackspaceKey {}
