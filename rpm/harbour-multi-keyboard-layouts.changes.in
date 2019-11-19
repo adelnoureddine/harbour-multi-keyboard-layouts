@@ -12,12 +12,16 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Thu Nov 14 2019 Adel Noureddine 0.0.1-1
+* Thu Nov 14 2019 Adel Noureddine 0.1-1
 - Initial version
 
-* Thu Nov 16 2019 Adel Noureddine 0.0.1-1
+* Thu Nov 16 2019 Adel Noureddine 0.2-1
 - Add emojis for 2nd/3rd pages of number row
 - Add customized version of the French keyboard with number rows
 
-* Thu Nov 17 2019 Adel Noureddine 0.0.1-1
+* Thu Nov 17 2019 Adel Noureddine 0.2.1-1
 - Minor fix to custom French keyboard
+
+* Thu Nov 19 2019 Adel Noureddine 0.2.2-1
+- Fix English AZERTY and English AZERTY with number row layouts
+- Add customized English AZERTY layout with number row
