@@ -25,3 +25,6 @@
 * Thu Nov 19 2019 Adel Noureddine 0.2.2-1
 - Fix English AZERTY and English AZERTY with number row layouts
 - Add customized English AZERTY layout with number row
+
+* Thu Nov 27 2019 Adel Noureddine 0.3-1
+- Add a customized Arabic layout with a number row

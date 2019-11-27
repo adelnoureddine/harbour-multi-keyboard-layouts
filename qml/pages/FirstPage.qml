@@ -53,7 +53,7 @@ Page {
             LinkedLabel {
                 x: Theme.horizontalPageMargin
                 width: parent.width - 2*x
-                plainText: "This application adds multiple additional keyboard layouts : English with a number row, French with a number row, a customized French layout, English AZERTY, and English AZERTY with a number row. The number row's 2nd and 3rd pages show emojis."
+                plainText: "This application adds multiple additional keyboard layouts : English with a number row, French with a number row, a customized French layout, English AZERTY, and English AZERTY with a number row. The number row's 2nd and 3rd pages show emojis. It also adds customized English AZERTY, French and Arabic layouts with number rows and wider space button."
             }
             LinkedLabel {
                 x: Theme.horizontalPageMargin
