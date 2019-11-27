@@ -92,7 +92,7 @@ KeyboardLayout {
     KeyboardRow {
         splitIndex: 5
 
-        PersianShiftKey {
+        CharacterKey {
             caption: "ء"; accents: "\u0655\u0654"; accentsShifted: "\u0655\u0654"
         }
 
