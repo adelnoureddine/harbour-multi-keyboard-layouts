@@ -49,6 +49,7 @@ KeyboardLayout {
         CharacterKey { caption: "9"; captionShifted: "9"; symView: "😁"; symView2: "😠" }
         CharacterKey { caption: "0"; captionShifted: "0"; symView: "😂"; symView2: "😴" }
         CharacterKey { caption: "€"; captionShifted: "€"; symView: "👍"; symView2: "👋"; accents: "$£\uFDFC\u20BA"; accentsShifted: "$£\uFDFC\u20BA" }
+        CharacterKey { caption: "\u262E"; captionShifted: "\u262E"; symView: "\uFDF2"; symView2: "\uFDFA"; accents: "\u262A\u271D\u262B\u2629\u2721\u2626\u262F"; accentsShifted: "\u262A\u271D\u262B\u2629\u2721\u2626\u262F" }
     }
 
     KeyboardRow {
@@ -63,9 +64,16 @@ KeyboardLayout {
         CharacterKey { caption: "خ"; captionShifted: "خ"; symView: "٩"; symView2: "[" }
         CharacterKey { caption: "ح"; captionShifted: "ح"; symView: "٠"; symView2: "]" }
         CharacterKey { caption: "ج"; captionShifted: "ج"; symView: "٪"; symView2: "%"; accents: "چ"; accentsShifted: "چ" }
+        CharacterKey {
+            caption: "د"; captionShifted: "د"; symView: ":"; symView2: "‹|"; accents: "ذ"; accentsShifted: "ذ"
+            text: attributes.inSymView ? (attributes.inSymView2 ? "\u200F" : symView) : caption
+        }
     }
 
     KeyboardRow {
+        ShiftKey {
+            implicitWidth: symbolKeyWidthNarrow * 0.5
+        }
         CharacterKey { caption: "ش"; captionShifted: "ش"; symView: "٬"; symView2: "&"; accents: "ڜ"; accentsShifted: "ڜ" }
         CharacterKey { caption: "س"; captionShifted: "س"; symView: "٫"; symView2: "@" }
         CharacterKey { caption: "ي"; captionShifted: "ي"; symView: "+"; symView2: "#"; accents: "ئ"; accentsShifted: "ئ" }
@@ -82,29 +90,28 @@ KeyboardLayout {
             text: attributes.inSymView ? (attributes.inSymView2 ? "{" : "(") : caption
         }
         CharacterKey {
-            caption: "ك"; captionShifted: "ك"; symView: "!"; symView2: "°"; accents: "گک"; accentsShifted: "گک"
+            caption: "ك"; captionShifted: "ك"; symView: "!"; symView2: "°"
         }
         CharacterKey {
-            caption: "ط"; captionShifted: "ط"; symView: "؟"; symView2: "‰"
+            caption: "ذ"; captionShifted: "ذ"; symView: ":"; symView2: "‹|"
+            text: attributes.inSymView ? (attributes.inSymView2 ? "\u200F" : symView) : caption
         }
     }
 
     KeyboardRow {
         splitIndex: 5
 
-        CharacterKey {
-            caption: "ء"; accents: "\u0655\u0654"; accentsShifted: "\u0655\u0654"
-        }
-
-        CharacterKey { caption: "ؤ"; captionShifted: "ؤ"; symView: "*"; symView2: "×" }
-        CharacterKey { caption: "ر"; captionShifted: "ر"; symView: "/"; symView2: "÷" }
-        CharacterKey { caption: "ى"; captionShifted: "ى"; symView: "'"; symView2: "ـ"; accents: "ئآ"; accentsShifted: "ئآ" }
+        CharacterKey { caption: "ئ"; captionShifted: "ئ"; symView: "÷"; symView2: "©" }
+        CharacterKey { caption: "ء"; captionShifted: "ء"; symView: "×"; symView2: "®"; accents: "\u0655\u0654ؤ"; accentsShifted: "\u0655\u0654ؤ" }
+        CharacterKey { caption: "ؤ"; captionShifted: "ؤ"; symView: "*"; symView2: "™" }
+        CharacterKey { caption: "ر"; captionShifted: "ر"; symView: "/"; symView2: "¶" }
+        CharacterKey { caption: "ى"; captionShifted: "ى"; symView: "'"; symView2: "ـ"; accents: "ئ"; accentsShifted: "ئ" }
         CharacterKey {
             caption: "ة"; captionShifted: "ة"; symView: "\""; symView2: "›|‹"
             text: attributes.inSymView ? (attributes.inSymView2 ? "\u200D" : symView) : caption
         }
         CharacterKey {
-            caption: "و"; captionShifted: "و"; symView: "\u200F»"; symView2: "\u200F>"
+            caption: "و"; captionShifted: "و"; symView: "\u200F»"; symView2: "\u200F>"; accents: "ؤ"; accentsShifted: "ؤ"
             text: attributes.inSymView ? (attributes.inSymView2 ? ">" : "»") : caption
         }
         CharacterKey {
@@ -116,8 +123,7 @@ KeyboardLayout {
             text: attributes.inSymView ? (attributes.inSymView2 ? "\u200E" : symView) : caption
         }
         CharacterKey {
-            caption: "د"; captionShifted: "د"; symView: ":"; symView2: "‹|"; accents: "ذ"; accentsShifted: "ذ"
-            text: attributes.inSymView ? (attributes.inSymView2 ? "\u200F" : symView) : caption
+            caption: "ط"; captionShifted: "ط"; symView: "؟"; symView2: "‰"
         }
 
         BackspaceKey {}

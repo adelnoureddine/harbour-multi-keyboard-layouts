@@ -28,3 +28,8 @@
 
 * Thu Nov 27 2019 Adel Noureddine 0.3-1
 - Add a customized Arabic layout with a number row
+
+* Thu Nov 29 2019 Adel Noureddine 0.3.1-1
+- Improve Arabic layout with additional keys
+- Add additional emojis and symbols for Arabic layout
+- Fix shift key in customized Arabic layout
