@@ -37,6 +37,14 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
 
+        // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
+        PullDownMenu {
+            MenuItem {
+                text: qsTr("About")
+                onClicked: pageStack.push(Qt.resolvedUrl("SecondPage.qml"))
+            }
+        }
+
         // Tell SilicaFlickable the height of its content.
         contentHeight: column.height
 
@@ -50,15 +58,41 @@ Page {
             PageHeader {
                 title: qsTr("Multi Keyboard Layouts")
             }
-            LinkedLabel {
+
+            Text {
                 x: Theme.horizontalPageMargin
+                color: Theme.highlightColor
                 width: parent.width - 2*x
-                plainText: "This application adds multiple additional keyboard layouts : English with a number row, French with a number row, a customized French layout, English AZERTY, and English AZERTY with a number row. The number row's 2nd and 3rd pages show emojis. It also adds customized English AZERTY, French and Arabic layouts with number rows and wider space button."
+                wrapMode: Text.WordWrap
+                font.pixelSize: Theme.fontSizeMedium
+                text: qsTr("This application adds multiple additional keyboard layouts : <br />" +
+                           "<p>English: <ul><li>English with a number row</li><li>English AZERTY</li><li>English AZERTY with a number row</li><li>Customized English AZERTY*</li></ul></p>" +
+                           "<p>French: <ul><li>French with a number row</li><li>Customized French*</li></ul></p>" +
+                           "<p>German (Deutsch): <ul><li>German with a number row</li></ul></p>" +
+                           "<p>Arabic (العربية): <ul><li>Customized Arabic*</li></ul></p>" +
+                           "<p>* A customized layout has: a number row, emojis in 2nd/3rd pages, wider space button, more standard layout (similar to Swiftkey)</p>"
+                           )
             }
+
+            SectionHeader {
+                text: qsTr("Installation and removal")
+            }
+
             LinkedLabel {
                 x: Theme.horizontalPageMargin
                 width: parent.width - 2*x
-                plainText: "The new keyboard layouts should work automatically after installation (you can choose them from Settings). However, if a layout doesn't show up, try one of the following options : 1) restart the device, 2) use Sailfish Utilities to restart Home Screen using Sailfish Utilities, or 3) from the terminal in developer mode, login as root (devel-su), then type : killall maliit-server"
+                plainText: "Removing this application will also remove all the additional installed layouts"
+            }
+
+            Text {
+                x: Theme.horizontalPageMargin
+                color: Theme.highlightColor
+                width: parent.width - 2*x
+                wrapMode: Text.WordWrap
+                font.pixelSize: Theme.fontSizeMedium
+                text: qsTr("The new keyboard layouts should work automatically after installation (you can choose them from Settings).<br />However, if a layout doesn't show up, try one of the following options :" +
+                           "<ul><li>Restart the device</li><li>Or use Sailfish Utilities to restart Home Screen using Sailfish Utilities</li><li>or, from the terminal in developer mode, login as root (devel-su), then type : killall maliit-server</li></ul>"
+                           )
             }
         }
     }

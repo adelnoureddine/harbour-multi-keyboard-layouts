@@ -33,3 +33,7 @@
 - Improve Arabic layout with additional keys
 - Add additional emojis and symbols for Arabic layout
 - Fix shift key in customized Arabic layout
+
+* Wed Dec 04 2019 Adel Noureddine 0.4-1
+- Add a German layout with a number row
+- Improve application visuals

@@ -29,10 +29,19 @@ import Sailfish.Silica 1.0
 
 CoverBackground {
 
+    Image{
+        source: "harbour-multi-keyboard-layouts.png"
+        anchors.top: parent.top
+        anchors.topMargin: 15
+        anchors.horizontalCenter: parent.horizontalCenter
+        opacity: 0.5
+    }
+
     LinkedLabel {
         id: label
         anchors.centerIn: parent
         width: parent.width - 2*x
         plainText: "Multi Keyboard Layouts"
     }
+
 }

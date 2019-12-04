@@ -9,7 +9,7 @@ Name:       harbour-multi-keyboard-layouts
 # << macros
 
 Summary:    Multi Keyboard Layouts
-Version:    0.3.1
+Version:    0.4
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE
@@ -81,6 +81,7 @@ killall maliit-server
 %{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_frn_me.conf
 %{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_ennazerty_me.conf
 %{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_arn_me.conf
+%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_den.conf
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enazerty.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ennazerty.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enn.qml
@@ -88,5 +89,6 @@ killall maliit-server
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_frn_me.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ennazerty_me.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_arn_me.qml
+%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_den.qml
 # >> files
 # << files
