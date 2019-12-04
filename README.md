@@ -3,6 +3,7 @@
 This application adds multiple additional keyboard layouts (for SFOS 3) :
 - English with a number row
 - French with a number row
+- German with a number row
 - English AZERTY
 - English AZERTY with a number row
 - A customized version of the French layout (wider space button, long press for symbols, etc.)
