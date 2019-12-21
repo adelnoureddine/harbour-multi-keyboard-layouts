@@ -66,7 +66,7 @@ Page {
                 wrapMode: Text.WordWrap
                 font.pixelSize: Theme.fontSizeMedium
                 text: qsTr("This application adds multiple additional keyboard layouts : <br />" +
-                           "<p>English: <ul><li>English with a number row</li><li>English AZERTY</li><li>English AZERTY with a number row</li><li>Customized English AZERTY*</li></ul></p>" +
+                           "<p>English: <ul><li>English with a number row</li><li>English AZERTY</li><li>English AZERTY with a number row</li><li>Customized English*</li><li>Customized English AZERTY*</li></ul></p>" +
                            "<p>French: <ul><li>French with a number row</li><li>Customized French*</li></ul></p>" +
                            "<p>German (Deutsch): <ul><li>German with a number row</li></ul></p>" +
                            "<p>Arabic (العربية): <ul><li>Customized Arabic*</li></ul></p>" +

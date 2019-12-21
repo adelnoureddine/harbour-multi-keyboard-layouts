@@ -53,10 +53,10 @@ KeyboardLayout {
     }
 
     KeyboardRow {
-        CharacterKey { caption: "ض"; captionShifted: "ض"; symView: "١"; symView2: "€" }
-        CharacterKey { caption: "ص"; captionShifted: "ص"; symView: "٢"; symView2: "£" }
-        CharacterKey { caption: "ث"; captionShifted: "ث"; symView: "٣"; symView2: "$" }
-        CharacterKey { caption: "ق"; captionShifted: "ق"; symView: "٤"; symView2: "¥"; accents: "ڨڧ"; accentsShifted: "ڨڧ" }
+        CharacterKey { caption: "ض"; captionShifted: "\u064E"; symView: "١"; symView2: "€" }
+        CharacterKey { caption: "ص"; captionShifted: "\u064B"; symView: "٢"; symView2: "£" }
+        CharacterKey { caption: "ث"; captionShifted: "\u064F"; symView: "٣"; symView2: "$" }
+        CharacterKey { caption: "ق"; captionShifted: "\u064C"; symView: "٤"; symView2: "¥"; accents: "ڨڧ"; accentsShifted: "ڨڧ" }
         CharacterKey { caption: "ف"; captionShifted: "ف"; symView: "٥"; symView2: "₹"; accents: "ڥڤڢ"; accentsShifted: "ڥڤڢ" }
         CharacterKey { caption: "غ"; captionShifted: "غ"; symView: "٦"; symView2: "%" }
         CharacterKey { caption: "ع"; captionShifted: "ع"; symView: "٧"; symView2: "<" }
@@ -74,8 +74,8 @@ KeyboardLayout {
         ShiftKey {
             implicitWidth: symbolKeyWidthNarrow * 0.5
         }
-        CharacterKey { caption: "ش"; captionShifted: "ش"; symView: "٬"; symView2: "&"; accents: "ڜ"; accentsShifted: "ڜ" }
-        CharacterKey { caption: "س"; captionShifted: "س"; symView: "٫"; symView2: "@" }
+        CharacterKey { caption: "ش"; captionShifted: "\u0650"; symView: "٬"; symView2: "&"; accents: "ڜ"; accentsShifted: "ڜ" }
+        CharacterKey { caption: "س"; captionShifted: "\u064D"; symView: "٫"; symView2: "@" }
         CharacterKey { caption: "ي"; captionShifted: "ي"; symView: "+"; symView2: "#"; accents: "ئ"; accentsShifted: "ئ" }
         CharacterKey { caption: "ب"; captionShifted: "ب"; symView: "−"; symView2: "_"; accents: "پ"; accentsShifted: "پ" }
         CharacterKey { caption: "ل"; captionShifted: "ل"; symView: "="; symView2: "^" }
@@ -101,8 +101,8 @@ KeyboardLayout {
     KeyboardRow {
         splitIndex: 5
 
-        CharacterKey { caption: "ئ"; captionShifted: "ئ"; symView: "÷"; symView2: "©" }
-        CharacterKey { caption: "ء"; captionShifted: "ء"; symView: "×"; symView2: "®"; accents: "\u0655\u0654ؤ"; accentsShifted: "\u0655\u0654ؤ" }
+        CharacterKey { caption: "ئ"; captionShifted: "\u0651"; symView: "÷"; symView2: "©" }
+        CharacterKey { caption: "ء"; captionShifted: "\u0652"; symView: "×"; symView2: "®"; accents: "\u0655\u0654ؤ"; accentsShifted: "\u0655\u0654ؤ" }
         CharacterKey { caption: "ؤ"; captionShifted: "ؤ"; symView: "*"; symView2: "™" }
         CharacterKey { caption: "ر"; captionShifted: "ر"; symView: "/"; symView2: "¶" }
         CharacterKey { caption: "ى"; captionShifted: "ى"; symView: "'"; symView2: "ـ"; accents: "ئ"; accentsShifted: "ئ" }

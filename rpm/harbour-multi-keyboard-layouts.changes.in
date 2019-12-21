@@ -37,3 +37,7 @@
 * Wed Dec 04 2019 Adel Noureddine 0.4-1
 - Add a German layout with a number row
 - Improve application visuals
+
+* Sat Dec 21 2019 Adel Noureddine 0.4.1-1
+- Add a customized English layout
+- Update Arabic layout with diacritics on shift key press
