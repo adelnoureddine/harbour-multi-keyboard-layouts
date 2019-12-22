@@ -41,3 +41,8 @@
 * Sat Dec 21 2019 Adel Noureddine 0.4.1-1
 - Add a customized English layout
 - Update Arabic layout with diacritics on shift key press
+
+* Sat Dec 22 2019 Adel Noureddine 0.4.2-1
+- Rename customized layouts to improved
+- Improvements to Arabic layout
+- Add textfield to try the layouts in the app

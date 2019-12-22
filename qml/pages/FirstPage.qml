@@ -59,6 +59,14 @@ Page {
                 title: qsTr("Multi Keyboard Layouts")
             }
 
+            TextField {
+                x: Theme.horizontalPageMargin
+                color: Theme.highlightColor
+                width: parent.width - 2*x
+                font.pixelSize: Theme.fontSizeSmall
+                placeholderText: qsTr("Type here to try the keyboard layout")
+            }
+
             Text {
                 x: Theme.horizontalPageMargin
                 color: Theme.highlightColor
@@ -66,11 +74,11 @@ Page {
                 wrapMode: Text.WordWrap
                 font.pixelSize: Theme.fontSizeMedium
                 text: qsTr("This application adds multiple additional keyboard layouts : <br />" +
-                           "<p>English: <ul><li>English with a number row</li><li>English AZERTY</li><li>English AZERTY with a number row</li><li>Customized English*</li><li>Customized English AZERTY*</li></ul></p>" +
-                           "<p>French: <ul><li>French with a number row</li><li>Customized French*</li></ul></p>" +
+                           "<p>English: <ul><li>English with a number row</li><li>English AZERTY</li><li>English AZERTY with a number row</li><li>Improved English*</li><li>Improved English AZERTY*</li></ul></p>" +
+                           "<p>French: <ul><li>French with a number row</li><li>Improved French*</li></ul></p>" +
                            "<p>German (Deutsch): <ul><li>German with a number row</li></ul></p>" +
-                           "<p>Arabic (العربية): <ul><li>Customized Arabic*</li></ul></p>" +
-                           "<p>* A customized layout has: a number row, emojis in 2nd/3rd pages, wider space button, more standard layout (similar to Swiftkey)</p>"
+                           "<p>Arabic (العربية): <ul><li>Improved Arabic*</li></ul></p>" +
+                           "<p>* An improved layout has: a number row, emojis in 2nd/3rd pages, wider space button, more standard layout (similar to Swiftkey)</p>"
                            )
             }
 
