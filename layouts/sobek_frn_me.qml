@@ -26,7 +26,9 @@
 
 import QtQuick 2.0
 import com.jolla.keyboard 1.0
+import Sailfish.Silica 1.0
 import ".."
+
 
 KeyboardLayout {
     splitSupported: true            
@@ -48,46 +50,201 @@ KeyboardLayout {
         CharacterKey {
             caption: "a"; captionShifted: "A"; symView: "1"; symView2: "€"
             accents: "aâàæäáãå%"; accentsShifted: "AÂÀÆÄÁÃÅ%"
-            nativeAccents: "àâ"; nativeAccentsShifted: "ÀÂ"
+            nativeAccents: "àâ"; nativeAccentsShifted: "ÀÂ";
+            Text {
+                text: "%";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
         }
-        CharacterKey { caption: "z"; captionShifted: "Z"; symView: "2"; symView2: "£"; accents: "\\"; accentsShifted: "\\" }
+        CharacterKey { caption: "z"; captionShifted: "Z"; symView: "2"; symView2: "£"; accents: "\\"; accentsShifted: "\\";
+            Text {
+                text: "\\";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
         CharacterKey {
             caption: "e"; captionShifted: "E"; symView: "3"; symView2: "$"
             accents: "èeéêë~"; accentsShifted: "ÈEÉÊË~"
-            nativeAccents: "èéêë"; nativeAccentsShifted: "ÈÉÊË"
+            nativeAccents: "èéêë"; nativeAccentsShifted: "ÈÉÊË";
+            Text {
+                text: "~";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
         }
-        CharacterKey { caption: "r"; captionShifted: "R"; symView: "4"; symView2: "¥"; accents: "|"; accentsShifted: "|" }
-        CharacterKey { caption: "t"; captionShifted: "T"; symView: "5"; symView2: "₹"; accents: "tþ["; accentsShifted: "TÞ[" }
-        CharacterKey { caption: "y"; captionShifted: "Y"; symView: "6"; symView2: "%"; accents: "ýy¥]"; accentsShifted: "ÝY¥]" }
+        CharacterKey { caption: "r"; captionShifted: "R"; symView: "4"; symView2: "¥"; accents: "|"; accentsShifted: "|";
+            Text {
+                text: "~";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "t"; captionShifted: "T"; symView: "5"; symView2: "₹"; accents: "tþ["; accentsShifted: "TÞ[";
+            Text {
+                text: "[";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "y"; captionShifted: "Y"; symView: "6"; symView2: "%"; accents: "ýy¥]"; accentsShifted: "ÝY¥]";
+            Text {
+                text: "]";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
         CharacterKey {
             caption: "u"; captionShifted: "U"; symView: "7"; symView2: "<"
             accents: "üûuùú<"; accentsShifted: "ÜÛUÙÚ<"
-            nativeAccents: "ûùü"; nativeAccentsShifted: "ÛÙÜ"
+            nativeAccents: "ûùü"; nativeAccentsShifted: "ÛÙÜ";
+            Text {
+                text: "<";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
         }
         CharacterKey {
             caption: "i"; captionShifted: "I"; symView: "8"; symView2: ">"
             accents: "íìîiï>"; accentsShifted: "ÍÌÎIÏ>"
-            nativeAccents: "îï"; nativeAccentsShifted: "ÎÏ"
+            nativeAccents: "îï"; nativeAccentsShifted: "ÎÏ";
+            Text {
+                text: ">";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
         }
         CharacterKey {
             caption: "o"; captionShifted: "O"; symView: "9"; symView2: "["
             accents: "øöòóôoœ{"; accentsShifted: "ØÖÒÓÔOŒ{"
-            nativeAccents: "ô"; nativeAccentsShifted: "Ô"
+            nativeAccents: "ô"; nativeAccentsShifted: "Ô";
+            Text {
+                text: "{";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
         }
-        CharacterKey { caption: "p"; captionShifted: "P"; symView: "0"; symView2: "]"; accents: "}"; accentsShifted: "}" }
+        CharacterKey { caption: "p"; captionShifted: "P"; symView: "0"; symView2: "]"; accents: "}"; accentsShifted: "}";
+            Text {
+                text: "}";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
     }
 
     KeyboardRow {
-        CharacterKey { caption: "q"; captionShifted: "Q"; symView: "*"; symView2: "`"; accents: "@"; accentsShifted: "@"}
-        CharacterKey { caption: "s"; captionShifted: "S"; symView: "#"; symView2: "^"; accents: "#"; accentsShifted: "#" }
-        CharacterKey { caption: "d"; captionShifted: "D"; symView: "+"; symView2: "|"; accents: "dð&"; accentsShifted: "DÐ&" }
-        CharacterKey { caption: "f"; captionShifted: "F"; symView: "-"; symView2: "_"; accents: "*"; accentsShifted: "*" }
-        CharacterKey { caption: "g"; captionShifted: "G"; symView: "="; symView2: "§"; accents: "-"; accentsShifted: "-" }
-        CharacterKey { caption: "h"; captionShifted: "H"; symView: "("; symView2: "{"; accents: "+"; accentsShifted: "+" }
-        CharacterKey { caption: "j"; captionShifted: "J"; symView: ")"; symView2: "}"; accents: "="; accentsShifted: "=" }
-        CharacterKey { caption: "k"; captionShifted: "K"; symView: "~"; symView2: "°"; accents: "("; accentsShifted: "(" }
-        CharacterKey { caption: "l"; captionShifted: "L"; symView: "!"; symView2: "¡"; accents: ")"; accentsShifted: ")" }
-        CharacterKey { caption: "m"; captionShifted: "M"; symView: "?"; symView2: "¿"; accents: "^"; accentsShifted: "^" }
+        CharacterKey { caption: "q"; captionShifted: "Q"; symView: "*"; symView2: "`"; accents: "@"; accentsShifted: "@";
+            Text {
+                text: "@";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "s"; captionShifted: "S"; symView: "#"; symView2: "^"; accents: "#"; accentsShifted: "#";
+            Text {
+                text: "#";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "d"; captionShifted: "D"; symView: "+"; symView2: "|"; accents: "dð&"; accentsShifted: "DÐ&";
+            Text {
+                text: "&";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "f"; captionShifted: "F"; symView: "-"; symView2: "_"; accents: "*"; accentsShifted: "*";
+            Text {
+                text: "*";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "g"; captionShifted: "G"; symView: "="; symView2: "§"; accents: "-"; accentsShifted: "-";
+            Text {
+                text: "-";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "h"; captionShifted: "H"; symView: "("; symView2: "{"; accents: "+"; accentsShifted: "+";
+            Text {
+                text: "+";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "j"; captionShifted: "J"; symView: ")"; symView2: "}"; accents: "="; accentsShifted: "=";
+            Text {
+                text: "=";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "k"; captionShifted: "K"; symView: "~"; symView2: "°"; accents: "("; accentsShifted: "(";
+            Text {
+                text: "(";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "l"; captionShifted: "L"; symView: "!"; symView2: "¡"; accents: ")"; accentsShifted: ")";
+            Text {
+                text: ")";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "m"; captionShifted: "M"; symView: "?"; symView2: "¿"; accents: "^"; accentsShifted: "^";
+            Text {
+                text: "^";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
     }
 
     KeyboardRow {
@@ -95,12 +252,60 @@ KeyboardLayout {
 
         ShiftKey {}
 
-        CharacterKey { caption: "w"; captionShifted: "W"; symView: "@"; symView2: "«"; accents: "_"; accentsShifted: "_" }
-        CharacterKey { caption: "x"; captionShifted: "X"; symView: "&"; symView2: "»"; accents: "€"; accentsShifted: "€" }
-        CharacterKey { caption: "c"; captionShifted: "C"; symView: "/"; symView2: "÷"; accents: "cç\""; accentsShifted: "CÇ\"" }
-        CharacterKey { caption: "v"; captionShifted: "V"; symView: "\\"; symView2: "“"; accents: ":"; accentsShifted: ":" }
-        CharacterKey { caption: "b"; captionShifted: "B"; symView: "\""; symView2: "”"; accents: ";"; accentsShifted: ";" }
-        CharacterKey { caption: "n"; captionShifted: "N"; symView: ";"; symView2: "„"; accents: "nñ/"; accentsShifted: "NÑ/" }
+        CharacterKey { caption: "w"; captionShifted: "W"; symView: "@"; symView2: "«"; accents: "_"; accentsShifted: "_";
+            Text {
+                text: "_";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "x"; captionShifted: "X"; symView: "&"; symView2: "»"; accents: "€"; accentsShifted: "€";
+            Text {
+                text: "€";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "c"; captionShifted: "C"; symView: "/"; symView2: "÷"; accents: "cç\""; accentsShifted: "CÇ\"";
+            Text {
+                text: "\"";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "v"; captionShifted: "V"; symView: "\\"; symView2: "“"; accents: ":"; accentsShifted: ":";
+            Text {
+                text: ":";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "b"; captionShifted: "B"; symView: "\""; symView2: "”"; accents: ";"; accentsShifted: ";";
+            Text {
+                text: ";";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
+        CharacterKey { caption: "n"; captionShifted: "N"; symView: ";"; symView2: "„"; accents: "nñ/"; accentsShifted: "NÑ/";
+            Text {
+                text: "/";
+                color: Theme.highlightColor;
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+        }
         CharacterKey {
             caption: "'"
             captionShifted: "'"

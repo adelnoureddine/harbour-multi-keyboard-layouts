@@ -49,3 +49,6 @@
 
 * Sat Dec 28 2019 Adel Noureddine 0.4.3-1
 - Fix typo
+
+* Mon Jan 13 2020 Adel Noureddine 0.5-1
+- Show long-press symbols on each key for improved layouts

@@ -7,7 +7,6 @@ This application adds multiple additional keyboard layouts (for SFOS 3) :
 - English AZERTY
 - English AZERTY with a number row
 - A customized version of the French layout (wider space button, long press for symbols, etc.)
-- A customized version of the English layout (wider space button, long press for symbols, etc.)
 - A customized version of the English AZERTY layout (wider space button, long press for symbols, etc.)
 - A customized version of the Arabic layout (wider space button, long press for symbols, etc.)
 
