@@ -56,3 +56,8 @@
 * Mon Jan 14 2020 Adel Noureddine 0.5.1-1
 - Show long-press symbols on each key for improved layouts, only on first page (don't show when symbol key is activated)
 - New app icon
+
+* Fri Dec 18 2020 Adel Noureddine 0.6-1
+- Add two new Arabic layouts: classic and improved one
+- Rename old improved Arabic layout to legacy
+- Update About page design

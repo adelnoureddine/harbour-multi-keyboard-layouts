@@ -6,9 +6,10 @@ This application adds multiple additional keyboard layouts (for SFOS 3) :
 - German with a number row
 - English AZERTY
 - English AZERTY with a number row
+- Arabic
 - A customized version of the French layout (wider space button, long press for symbols, etc.)
 - A customized version of the English AZERTY layout (wider space button, long press for symbols, etc.)
-- A customized version of the Arabic layout (wider space button, long press for symbols, etc.)
+- A customized (a new one + the old legacy one) version of the Arabic layout (wider space button, long press for symbols, etc.)
 
 The number row shows emojis in its 2nd/3rd pages.
 

@@ -1,5 +1,5 @@
 /*
- * Modification by Adel Noureddine (in 2019), to customize the layout.
+ * Modification by Adel Noureddine (in 2019-2021), to customize the layout.
  *
  * Copyright (C) 2015 Ali Najafi
  *
