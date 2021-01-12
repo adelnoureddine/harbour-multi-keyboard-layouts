@@ -1,5 +1,7 @@
 # Multi Keyboard Layouts for Sailfish OS
 
+Moved to gitlab: https://gitlab.com/adelnoureddine/harbour-multi-keyboard-layouts
+
 This application adds multiple additional keyboard layouts (for SFOS 3) :
 - English with a number row
 - French with a number row
