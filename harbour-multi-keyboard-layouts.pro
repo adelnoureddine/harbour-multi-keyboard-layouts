@@ -12,7 +12,7 @@
 # The name of your application
 TARGET = harbour-multi-keyboard-layouts
 
-layout.files = layouts/layouts_sobek_enazerty.conf layouts/layouts_sobek_ennazerty.conf layouts/layouts_sobek_enn.conf layouts/layouts_sobek_enn_me.conf layouts/layouts_sobek_ar.conf layouts/layouts_sobek_frn.conf layouts/layouts_sobek_frn_me.conf layouts/layouts_sobek_ennazerty_me.conf layouts/layouts_sobek_arn_me.conf layouts/layouts_sobek_den.conf layouts/layouts_sobek_ar_improved.conf layouts/sobek_den.qml layouts/sobek_arn_me.qml layouts/sobek_enazerty.qml layouts/sobek_ennazerty.qml layouts/sobek_enn.qml layouts/sobek_enn_me.qml layouts/sobek_frn.qml layouts/sobek_frn_me.qml layouts/sobek_ennazerty_me.qml layouts/sobek_ar.qml layouts/sobek_ar_improved.qml
+layout.files = layouts/layouts_sobek_enazerty.conf layouts/layouts_sobek_ennazerty.conf layouts/layouts_sobek_enn.conf layouts/layouts_sobek_enn_me.conf layouts/layouts_sobek_ar.conf layouts/layouts_sobek_frn.conf layouts/layouts_sobek_frn_me.conf layouts/layouts_sobek_ennazerty_me.conf layouts/layouts_sobek_arn_me.conf layouts/layouts_sobek_den.conf layouts/layouts_sobek_ar_improved.conf layouts/layouts_sobek_nln.conf layouts/sobek_den.qml layouts/sobek_arn_me.qml layouts/sobek_enazerty.qml layouts/sobek_ennazerty.qml layouts/sobek_enn.qml layouts/sobek_enn_me.qml layouts/sobek_frn.qml layouts/sobek_frn_me.qml layouts/sobek_ennazerty_me.qml layouts/sobek_ar.qml layouts/sobek_ar_improved.qml layouts/sobek_nln.qml
 layout.path = /usr/share/maliit/plugins/com/jolla/layouts
 
 INSTALLS += layout
@@ -34,6 +34,7 @@ DISTFILES += qml/harbour-multi-keyboard-layouts.qml \
     layouts/layouts_sobek_ennazerty_me.conf \
     layouts/layouts_sobek_frn.conf \
     layouts/layouts_sobek_frn_me.conf \
+    layouts/layouts_sobek_nln.conf \
     layouts/sobek_ar.qml \
     layouts/sobek_ar_improved.qml \
     layouts/sobek_arn_me.qml \
@@ -45,6 +46,7 @@ DISTFILES += qml/harbour-multi-keyboard-layouts.qml \
     layouts/sobek_ennazerty_me.qml \
     layouts/sobek_frn.qml \
     layouts/sobek_frn_me.qml \
+    layouts/sobek_nln.qml \
     qml/cover/CoverPage.qml \
     qml/pages/AboutPage.qml \
     qml/pages/MainPage.qml \

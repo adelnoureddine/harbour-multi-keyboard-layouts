@@ -1,6 +1,6 @@
 Name: harbour-multi-keyboard-layouts
 Summary: Multi Keyboard Layouts
-Version: 0.6
+Version: 0.6.1
 Release: 1
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
@@ -50,6 +50,7 @@ Files:
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_den.conf'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_ar.conf'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_ar_improved.conf'
+  - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_nln.conf'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enazerty.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ennazerty.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enn.qml'
@@ -61,6 +62,7 @@ Files:
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_den.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ar.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ar_improved.qml'
+  - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_nln.qml'
 
 # For more information about yaml and what's supported in Sailfish OS
 # build system, please see https://wiki.merproject.org/wiki/Spectacle

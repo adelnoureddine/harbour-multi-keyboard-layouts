@@ -39,7 +39,15 @@ Page {
             }
 
             Label {
-				text: qsTr("Author: Adel Noureddine © 2019, 2020, 2021")
+                text: qsTr("Author: Adel Noureddine © 2019-2021")
+                font.pixelSize: Theme.fontSizeSmall
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                }
+            }
+
+            Label {
+                text: qsTr("Additional layouts by: aerique (Dutch)")
                 font.pixelSize: Theme.fontSizeSmall
                 anchors {
                     horizontalCenter: parent.horizontalCenter

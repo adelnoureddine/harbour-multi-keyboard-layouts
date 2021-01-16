@@ -77,6 +77,7 @@ Page {
                            "<p>English: <ul><li>English with a number row</li><li>English AZERTY</li><li>English AZERTY with a number row</li><li>Improved English*</li><li>Improved English AZERTY*</li></ul></p>" +
                            "<p>French: <ul><li>French with a number row</li><li>Improved French*</li></ul></p>" +
                            "<p>German (Deutsch): <ul><li>German with a number row</li></ul></p>" +
+                           "<p>Dutch (Nederlands): <ul><li>Dutch with a number row</li></ul></p>" +
 						   "<p>Arabic (العربية): <ul><li>Arabic</li><li>Improved Arabic*</li><li>Legacy improved Arabic*</li></ul></p>" +
 						   "<p>* An improved layout has: a number row, emojis in 2nd/3rd pages, wider space button, more standard layout.<br />The legacy improved Arabic is the old improved layout that got completly overhauled with the new improved Arabic layout.</p>"
                            )

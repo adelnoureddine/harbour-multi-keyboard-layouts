@@ -61,3 +61,6 @@
 - Add two new Arabic layouts: classic and improved one
 - Rename old improved Arabic layout to legacy
 - Update About page design
+
+* Fri Dec 18 2020 Adel Noureddine 0.6.1-1
+- Add Dutch layout with a number row (thanks to aerique)
