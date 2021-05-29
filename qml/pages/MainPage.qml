@@ -73,13 +73,16 @@ Page {
                 width: parent.width - 2*x
                 wrapMode: Text.WordWrap
                 font.pixelSize: Theme.fontSizeMedium
-                text: qsTr("This application adds multiple additional keyboard layouts : <br />" +
-                           "<p>English: <ul><li>English with a number row</li><li>English AZERTY</li><li>English AZERTY with a number row</li><li>Improved English*</li><li>Improved English AZERTY*</li></ul></p>" +
-                           "<p>French: <ul><li>French with a number row</li><li>Improved French*</li></ul></p>" +
-                           "<p>German (Deutsch): <ul><li>German with a number row</li></ul></p>" +
-                           "<p>Dutch (Nederlands): <ul><li>Dutch with a number row</li></ul></p>" +
-						   "<p>Arabic (العربية): <ul><li>Arabic</li><li>Improved Arabic*</li><li>Legacy improved Arabic*</li></ul></p>" +
-						   "<p>* An improved layout has: a number row, emojis in 2nd/3rd pages, wider space button, more standard layout.<br />The legacy improved Arabic is the old improved layout that got completly overhauled with the new improved Arabic layout.</p>"
+                text: qsTr("This application adds multiple additional keyboard layouts:<br />" +
+                           "<p>Improved layouts (for English, English Azerty, French and Arabic/العربية):" +
+                           "<ul><li>Number row</li>" +
+                           "<li>Wider space button</li>" +
+                           "<li>Emojis on 2nd/3rd pages</li>" +
+                           "<li>Arrow keys (right/left) on 2nd/3rd pages</li>" +
+                           "<li>Popup symbols on the layout</li>" +
+                           "<li>Standard layouts similar to iOS/Android</li>" +
+                           "</ul></p>" +
+                           "<p>Layouts with a number row: English, English Azerty, French, Arabic (العربية), German (Deutsch) and Dutch (thanks to aerique)</p>"
                            )
             }
 

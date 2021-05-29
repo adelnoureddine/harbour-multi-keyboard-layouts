@@ -28,25 +28,79 @@
  */
 
 import QtQuick 2.0
+import com.jolla.keyboard 1.0
+import Sailfish.Silica 1.0
+import com.meego.maliitquick 1.0
 import ".."
 
 KeyboardLayout {
 	splitSupported: true
 	type: "CTL"
 
-	KeyboardRow {
-		CharacterKey { caption: "1"; symView: "😊"; symView2: "😮"; accents: "١" }
-		CharacterKey { caption: "2"; symView: "😉"; symView2: "😐"; accents: "٢" }
-		CharacterKey { caption: "3"; symView: "😘"; symView2: "😛"; accents: "٣" }
-		CharacterKey { caption: "4"; symView: "😎"; symView2: "😄"; accents: "٤" }
-		CharacterKey { caption: "5"; symView: "😃"; symView2: "😕"; accents: "٥" }
-		CharacterKey { caption: "6"; symView: "❤"; symView2: "😞"; accents: "٦" }
-		CharacterKey { caption: "7"; symView: "😍"; symView2: "😢"; accents: "٧" }
-		CharacterKey { caption: "8"; symView: "😀"; symView2: "😭"; accents: "٨" }
-		CharacterKey { caption: "9"; symView: "😁"; symView2: "😠"; accents: "٩" }
-		CharacterKey { caption: "0"; symView: "😂"; symView2: "😴"; accents: "٠" }
-		CharacterKey { caption: "€"; symView: "👍"; symView2: "👋"; accents: "$£\uFDFC\u20BA"; accentsShifted: "$£\uFDFC\u20BA" }
-	}
+    KeyboardRow {
+        //CharacterKey { caption: "1"; captionShifted: "1"; symView: "😊"; symView2: "😮" }
+
+        FunctionKey {
+            icon.source: keyboard.inSymView ? "image://theme/icon-splus-left" : ""
+            implicitWidth: punctuationKeyWidth
+            background.visible: false
+
+            showPopper: !keyboard.inSymView
+            separator: SeparatorState.HiddenSeparator
+
+            onClicked: {
+                if (keyboard.inSymView) {
+                    MInputMethodQuick.sendKey(Qt.Key_Left, 0, "", Maliit.KeyClick)
+                } else {
+                    MInputMethodQuick.sendKey(Qt.Key_1, 0, "1", Maliit.KeyClick)
+                }
+            }
+
+            Text {
+                text: keyboard.inSymView ? "" : "1"
+                color: Theme.primaryColor;
+                font.pixelSize: Theme.fontSizeLarge
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+            }
+
+        }
+
+        CharacterKey { caption: "2"; captionShifted: "2"; symView: "😊"; symView2: "😐" }
+        CharacterKey { caption: "3"; captionShifted: "3"; symView: "😉"; symView2: "😛" }
+        CharacterKey { caption: "4"; captionShifted: "4"; symView: "😘"; symView2: "❤" }
+        CharacterKey { caption: "5"; captionShifted: "5"; symView: "😃"; symView2: "😕" }
+        CharacterKey { caption: "6"; captionShifted: "6"; symView: "👍"; symView2: "😞" }
+        CharacterKey { caption: "7"; captionShifted: "7"; symView: "😍"; symView2: "😢" }
+        CharacterKey { caption: "8"; captionShifted: "8"; symView: "😂"; symView2: "😭" }
+        CharacterKey { caption: "9"; captionShifted: "9"; symView: "😁"; symView2: "😠" }
+        CharacterKey { caption: "€"; symView: "😎"; symView2: "👋"; accents: "$£\uFDFC\u20BA"; accentsShifted: "$£\uFDFC\u20BA" }
+
+        FunctionKey {
+            icon.source: keyboard.inSymView ? "image://theme/icon-splus-right" : ""
+            implicitWidth: punctuationKeyWidth
+            background.visible: false
+
+            showPopper: !keyboard.inSymView
+            separator: SeparatorState.HiddenSeparator
+
+            onClicked: {
+                if (keyboard.inSymView) {
+                    MInputMethodQuick.sendKey(Qt.Key_Right, 0, "", Maliit.KeyClick)
+                } else {
+                    MInputMethodQuick.sendKey(Qt.Key_0, 0, "0", Maliit.KeyClick)
+                }
+            }
+            Text {
+                text: keyboard.inSymView ? "" : "0"
+                color: Theme.primaryColor;
+                font.pixelSize: Theme.fontSizeLarge
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+            }
+        }
+        //CharacterKey { caption: "0"; captionShifted: "0"; symView: "😂"; symView2: "😴" }
+    }
 
 	KeyboardRow {
 		CharacterKey { caption: "ض"; symView: "١"; symView2: "€" }

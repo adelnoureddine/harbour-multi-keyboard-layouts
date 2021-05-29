@@ -62,5 +62,5 @@
 - Rename old improved Arabic layout to legacy
 - Update About page design
 
-* Fri Dec 18 2020 Adel Noureddine 0.6.1-1
-- Add Dutch layout with a number row (thanks to aerique)
+* Sat May 29 2021 Adel Noureddine 0.7-1
+- Add arrow keys in 2nd/3rd pages for Improved layouts (English, French, Arabic)

@@ -39,15 +39,7 @@ Page {
             }
 
             Label {
-                text: qsTr("Author: Adel Noureddine © 2019-2021")
-                font.pixelSize: Theme.fontSizeSmall
-                anchors {
-                    horizontalCenter: parent.horizontalCenter
-                }
-            }
-
-            Label {
-                text: qsTr("Additional layouts by: aerique (Dutch)")
+				text: qsTr("Author: Adel Noureddine © 2019, 2020, 2021")
                 font.pixelSize: Theme.fontSizeSmall
                 anchors {
                     horizontalCenter: parent.horizontalCenter
@@ -63,14 +55,14 @@ Page {
             }
 
             Text {
-                text: "<a href=\"https://github.com/adelnoureddine/harbour-multi-keyboard-layouts\">" + qsTr("View source code on GitHub") + "</a>"
+                text: "<a href=\"https://gitlab.com/adelnoureddine/harbour-multi-keyboard-layouts\">" + qsTr("View source code on GitLab") + "</a>"
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                 }
                 font.pixelSize: Theme.fontSizeSmall
                 linkColor: Theme.highlightColor
 
-                onLinkActivated: Qt.openUrlExternally("https://github.com/adelnoureddine/harbour-multi-keyboard-layouts")
+                onLinkActivated: Qt.openUrlExternally("https://gitlab.com/adelnoureddine/harbour-multi-keyboard-layouts")
             }
         }
     }

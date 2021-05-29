@@ -1,18 +1,20 @@
 # Multi Keyboard Layouts for Sailfish OS
 
-This application adds multiple additional keyboard layouts (for SFOS 3) :
-- English with a number row
-- French with a number row
-- German with a number row
-- Dutch with a number row
-- English AZERTY
-- English AZERTY with a number row
-- Arabic
-- A customized version of the French layout (wider space button, long press for symbols, etc.)
-- A customized version of the English AZERTY layout (wider space button, long press for symbols, etc.)
-- A customized (a new one + the old legacy one) version of the Arabic layout (wider space button, long press for symbols, etc.)
+This application adds multiple additional keyboard layouts (for SFOS 3 & 4, i486, armv7hl, aarch64) :
 
-The number row shows emojis in its 2nd/3rd pages.
+1- Improved layouts (for English, English Azerty, French and Arabic/العربية):
+- Number row
+- Wider space button
+- Emojis on 2nd/3rd pages
+- Arrow keys (right/left) on 2nd/3rd pages
+- Popup symbols on the layout
+- Standard layouts similar to iOS/Android
+
+2- Layouts with a number row: English, English Azerty, French, Arabic (العربية), German (Deutsch) and Dutch (thanks to aerique)
+
+3- Arabic layout العربية
+
+The new keyboard layouts should work automatically after installation (you can choose them from Settings). However, if a layout doesn't show up, try one of the following options : 1) restart the device, 2) use Sailfish Utilities to restart Home Screen using Sailfish Utilities, or 3) from the terminal in developer mode, login as root (devel-su), then type : killall maliit-server
 
 The new keyboard layouts should work automatically after installation (you can choose them from Settings).
 However, if a layout doesn't show up, try one of the following options : 1) restart the device, 2) use Sailfish Utilities to restart Home Screen using Sailfish Utilities, or 3) from the terminal in developer mode, login as root (devel-su), then type : killall maliit-server
