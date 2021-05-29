@@ -64,3 +64,6 @@
 
 * Sat May 29 2021 Adel Noureddine 0.7-1
 - Add arrow keys in 2nd/3rd pages for Improved layouts (English, French, Arabic)
+
+* Sat May 29 2021 Adel Noureddine 0.7.1-1
+- Fix numbers 1 and 0 (for the arrow keys) showing in Android apps

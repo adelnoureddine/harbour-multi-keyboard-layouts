@@ -56,10 +56,10 @@ KeyboardLayout {
             onClicked: {
                 if (keyboard.inSymView) {
                     MInputMethodQuick.sendKey(Qt.Key_Left, 0, "", Maliit.KeyClick)
-                } else {
-                    MInputMethodQuick.sendKey(Qt.Key_1, 0, "1", Maliit.KeyClick)
                 }
             }
+
+            text: keyboard.inSymView ? "" : "1"
 
             Text {
                 text: keyboard.inSymView ? "" : "1"
@@ -68,7 +68,6 @@ KeyboardLayout {
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
             }
-
         }
 
         CharacterKey { caption: "2"; captionShifted: "2"; symView: "😊"; symView2: "😐" }
@@ -91,10 +90,11 @@ KeyboardLayout {
             onClicked: {
                 if (keyboard.inSymView) {
                     MInputMethodQuick.sendKey(Qt.Key_Right, 0, "", Maliit.KeyClick)
-                } else {
-                    MInputMethodQuick.sendKey(Qt.Key_0, 0, "0", Maliit.KeyClick)
                 }
             }
+
+            text: keyboard.inSymView ? "" : "0"
+
             Text {
                 text: keyboard.inSymView ? "" : "0"
                 color: Theme.primaryColor;
@@ -103,6 +103,7 @@ KeyboardLayout {
                 anchors.verticalCenter: parent.verticalCenter
             }
         }
+
         //CharacterKey { caption: "0"; captionShifted: "0"; symView: "😂"; symView2: "😴" }
     }
 
