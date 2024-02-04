@@ -39,7 +39,7 @@ Page {
             }
 
             Label {
-				text: qsTr("Author: Adel Noureddine © 2019, 2020, 2021, 2023, 2024")
+				text: qsTr("Author: Adel Noureddine © 2019-2024")
                 font.pixelSize: Theme.fontSizeSmall
                 anchors {
                     horizontalCenter: parent.horizontalCenter
