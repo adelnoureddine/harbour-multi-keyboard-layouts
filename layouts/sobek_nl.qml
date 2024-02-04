@@ -36,6 +36,39 @@ KeyboardLayout {
     splitSupported: true
 
     KeyboardRow {
+        CharacterKey {
+            caption: "a"; captionShifted: "A"; symView: "1"; symView2: "€"
+            accents: "aâàæäáãå"; accentsShifted: "AÂÀÆÄÁÃÅ"
+            nativeAccents: "àâ"; nativeAccentsShifted: "ÀÂ"
+        }
+        CharacterKey { caption: "z"; captionShifted: "Z"; symView: "2"; symView2: "£" }
+        CharacterKey {
+            caption: "e"; captionShifted: "E"; symView: "3"; symView2: "$"
+            accents: "èeéêë"; accentsShifted: "ÈEÉÊË"
+            nativeAccents: "èéêë"; nativeAccentsShifted: "ÈÉÊË"
+        }
+        CharacterKey { caption: "r"; captionShifted: "R"; symView: "4"; symView2: "¥" }
+        CharacterKey { caption: "t"; captionShifted: "T"; symView: "5"; symView2: "₹"; accents: "tþ"; accentsShifted: "TÞ" }
+        CharacterKey { caption: "y"; captionShifted: "Y"; symView: "6"; symView2: "%"; accents: "ýy¥"; accentsShifted: "ÝY¥" }
+        CharacterKey {
+            caption: "u"; captionShifted: "U"; symView: "7"; symView2: "<"
+            accents: "üûuùú"; accentsShifted: "ÜÛUÙÚ"
+            nativeAccents: "ûùü"; nativeAccentsShifted: "ÛÙÜ"
+        }
+        CharacterKey {
+            caption: "i"; captionShifted: "I"; symView: "8"; symView2: ">"
+            accents: "íìîiï"; accentsShifted: "ÍÌÎIÏ"
+            nativeAccents: "îï"; nativeAccentsShifted: "ÎÏ"
+        }
+        CharacterKey {
+            caption: "o"; captionShifted: "O"; symView: "9"; symView2: "["
+            accents: "øöòóôoœ"; accentsShifted: "ØÖÒÓÔOŒ"
+            nativeAccents: "ô"; nativeAccentsShifted: "Ô"
+        }
+        CharacterKey { caption: "p"; captionShifted: "P"; symView: "0"; symView2: "]" }
+    }
+
+    KeyboardRow {
         CharacterKey { caption: "q"; captionShifted: "Q"; symView: "1"; symView2: "€" }
         CharacterKey { caption: "w"; captionShifted: "W"; symView: "2"; symView2: "£" }
         CharacterKey { caption: "e"; captionShifted: "E"; symView: "3"; symView2: "$"; accents: "èeéêë€"; accentsShifted: "ÈEÉÊË€" }
