@@ -69,19 +69,6 @@ KeyboardLayout {
     }
 
     KeyboardRow {
-        CharacterKey { caption: "q"; captionShifted: "Q"; symView: "1"; symView2: "€" }
-        CharacterKey { caption: "w"; captionShifted: "W"; symView: "2"; symView2: "£" }
-        CharacterKey { caption: "e"; captionShifted: "E"; symView: "3"; symView2: "$"; accents: "èeéêë€"; accentsShifted: "ÈEÉÊË€" }
-        CharacterKey { caption: "r"; captionShifted: "R"; symView: "4"; symView2: "¥" }
-        CharacterKey { caption: "t"; captionShifted: "T"; symView: "5"; symView2: "₹"; accents: "tþ"; accentsShifted: "TÞ" }
-        CharacterKey { caption: "y"; captionShifted: "Y"; symView: "6"; symView2: "%"; accents: "ýy¥"; accentsShifted: "ÝY¥" }
-        CharacterKey { caption: "u"; captionShifted: "U"; symView: "7"; symView2: "<"; accents: "űûùuúü"; accentsShifted: "ŰÛÙUÚÜ" }
-        CharacterKey { caption: "i"; captionShifted: "I"; symView: "8"; symView2: ">"; accents: "îïìií"; accentsShifted: "ÎÏÌIÍ" }
-        CharacterKey { caption: "o"; captionShifted: "O"; symView: "9"; symView2: "["; accents: "őøöôòoó"; accentsShifted: "ŐØÖÔÒOÓ" }
-        CharacterKey { caption: "p"; captionShifted: "P"; symView: "0"; symView2: "]" }
-    }
-
-    KeyboardRow {
         splitIndex: 5
 
         CharacterKey { caption: "a"; captionShifted: "A"; symView: "*"; symView2: "`"; accents: "aäàâáãå"; accentsShifted: "AÄÀÂÁÃÅ"}
@@ -112,4 +99,35 @@ KeyboardLayout {
     }
 
     SpacebarRow {}
+}
+
+    KeyboardRow {
+        splitIndex: 4
+
+        SymbolKey {
+            implicitWidth: symbolKeyWidthNarrow
+        }
+        CharacterKey {
+            caption: "'"
+            captionShifted: "'"
+            implicitWidth: punctuationKeyWidthNarrow
+            fixedWidth: !splitActive
+        }
+        ContextAwareCommaKey {
+            implicitWidth: punctuationKeyWidthNarrow
+        }
+        SpacebarKey {}
+        SpacebarKey {
+            active: splitActive
+            languageLabel: ""
+        }
+        CharacterKey {
+            caption: "."
+            captionShifted: "."
+            implicitWidth: punctuationKeyWidthNarrow
+            fixedWidth: !splitActive
+            separator: SeparatorState.HiddenSeparator
+        }
+        EnterKey {}
+    }
 }
