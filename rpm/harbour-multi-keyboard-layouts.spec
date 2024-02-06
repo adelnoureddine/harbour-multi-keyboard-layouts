@@ -86,7 +86,7 @@ killall maliit-server
 %{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_ar.conf
 %{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_ar_improved.conf
 %{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_nln.conf
-%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_nl.conf
+%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_be.conf
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enazerty.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ennazerty.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enn.qml
@@ -99,6 +99,6 @@ killall maliit-server
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ar.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ar_improved.qml
 %{_datadir}/maliit/plugins/com/jolla/layouts/sobek_nln.qml
-%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_nl.qml
+%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_be.qml
 # >> files
 # << files
