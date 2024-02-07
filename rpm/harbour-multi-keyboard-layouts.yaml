@@ -1,11 +1,11 @@
 Name: harbour-multi-keyboard-layouts
 Summary: Multi Keyboard Layouts
-Version: 0.7.1
-Release: 1
+Version: 0.7.2
+Release: 0
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Qt/Qt
-URL: https://gitlab.com/adelnoureddine/harbour-multi-keyboard-layouts/
+URL: https://github.com/adelnoureddine/harbour-multi-keyboard-layouts
 License: LICENSE
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.
@@ -51,6 +51,7 @@ Files:
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_ar.conf'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_ar_improved.conf'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_nln.conf'
+  - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sobek_be.conf'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enazerty.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ennazerty.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_enn.qml'
@@ -63,6 +64,7 @@ Files:
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ar.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_ar_improved.qml'
   - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_nln.qml'
+  - '%{_datadir}/maliit/plugins/com/jolla/layouts/sobek_be.qml'
 
 # For more information about yaml and what's supported in Sailfish OS
 # build system, please see https://wiki.merproject.org/wiki/Spectacle
