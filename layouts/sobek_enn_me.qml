@@ -369,7 +369,7 @@ KeyboardLayout {
             implicitWidth: symbolKeyWidthNarrow * 0.8
         }
         ContextAwareCommaKey {
-            implicitWidth: punctuationKeyWidthNarrow
+            implicitWidth: punctuationKeyWidth
         }
         SpacebarKey {}
         SpacebarKey {
@@ -379,7 +379,7 @@ KeyboardLayout {
         CharacterKey {
             caption: "."
             captionShifted: "."
-            implicitWidth: punctuationKeyWidthNarrow
+            implicitWidth: punctuationKeyWidth
             fixedWidth: !splitActive
             separator: SeparatorState.HiddenSeparator
             accents: "!?"; accentsShifted: "!?"

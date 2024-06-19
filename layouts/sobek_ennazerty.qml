@@ -120,11 +120,11 @@ KeyboardLayout {
         CharacterKey {
             caption: "'"
             captionShifted: "'"
-            implicitWidth: punctuationKeyWidthNarrow
+            implicitWidth: punctuationKeyWidth
             fixedWidth: !splitActive
         }
         ContextAwareCommaKey {
-            implicitWidth: punctuationKeyWidthNarrow
+            implicitWidth: punctuationKeyWidth
         }
         SpacebarKey {}
         SpacebarKey {
@@ -134,7 +134,7 @@ KeyboardLayout {
         CharacterKey {
             caption: "."
             captionShifted: "."
-            implicitWidth: punctuationKeyWidthNarrow
+            implicitWidth: punctuationKeyWidth
             fixedWidth: !splitActive
             separator: SeparatorState.HiddenSeparator
         }

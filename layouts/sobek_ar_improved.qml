@@ -178,10 +178,10 @@ KeyboardLayout {
 		splitIndex: 4
 
 		SymbolKey {
-			implicitWidth: symbolKeyWidthNarrow * 0.8
+            implicitWidth: symbolKeyWidthNarrow * 0.8
 		}
 		ContextAwareCommaKey {
-			implicitWidth: punctuationKeyWidthNarrow
+            implicitWidth: punctuationKeyWidth
 		}
 		SpacebarKey {}
 		SpacebarKey {
@@ -191,13 +191,13 @@ KeyboardLayout {
 		CharacterKey {
 			caption: "."
 			captionShifted: "."
-			implicitWidth: punctuationKeyWidthNarrow
+            implicitWidth: punctuationKeyWidth
 			fixedWidth: !splitActive
 			separator: SeparatorState.HiddenSeparator
 			accents: "!?؟"
 		}
 		EnterKey {
-			implicitWidth: functionKeyWidth * 0.8
+            implicitWidth: functionKeyWidth * 0.8
 		}
 	}
 }

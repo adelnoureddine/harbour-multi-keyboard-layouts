@@ -10,7 +10,7 @@ This application adds multiple additional keyboard layouts (for SFOS 3 & 4, i486
 - Popup symbols on the layout
 - Standard layouts similar to iOS/Android
 
-2- Layouts with a number row: English, English Azerty, French, Arabic (العربية), German (Deutsch) and Dutch (thanks to aerique)
+2- Layouts with a number row: English, English Azerty, French, Arabic (العربية), German (Deutsch), Dutch (thanks to aerique), and Belgisch (thanks to ruditimmermans) 
 
 3- Arabic layout العربية
 
