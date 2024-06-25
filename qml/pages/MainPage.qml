@@ -82,7 +82,7 @@ Page {
                            "<li>Popup symbols on the layout</li>" +
                            "<li>Standard layouts similar to iOS/Android</li>" +
                            "</ul></p>" +
-                           "<p>Layouts with a number row: English, English Azerty, French, Arabic (العربية), German (Deutsch), Dutch (thanks to aerique), Belgium Azerty (thanks to Rudi)</p>"
+                           "<p>Layouts with a number row: English, English Azerty, French, Arabic (العربية), German (Deutsch), Dutch (thanks to aerique), Belgium Azerty (thanks to Rudi), Swedish</p>"
                            )
             }
 

@@ -35,6 +35,7 @@ DISTFILES += qml/harbour-multi-keyboard-layouts.qml \
     layouts/layouts_sobek_frn_me.conf \
     layouts/layouts_sobek_nln.conf \
     layouts/layouts_sobek_be.conf \
+    layouts/layouts_sobek_sv.conf \
     layouts/sobek_ar.qml \
     layouts/sobek_ar_improved.qml \
     layouts/sobek_den.qml \
@@ -47,6 +48,7 @@ DISTFILES += qml/harbour-multi-keyboard-layouts.qml \
     layouts/sobek_frn_me.qml \
     layouts/sobek_nln.qml \
     layouts/sobek_be.qml \
+    layouts/sobek_sv.qml \
     qml/cover/CoverPage.qml \
     qml/pages/AboutPage.qml \
     qml/pages/MainPage.qml \
