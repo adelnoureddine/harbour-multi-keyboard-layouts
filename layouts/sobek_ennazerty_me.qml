@@ -370,7 +370,7 @@ KeyboardLayout {
         CharacterKey {
             caption: "'"
             captionShifted: "'"
-            implicitWidth: punctuationKeyWidthNarrow * 0.8
+            implicitWidth: punctuationKeyWidth
             fixedWidth: !splitActive
             symView: ":"; symView2: "‰";
         }
