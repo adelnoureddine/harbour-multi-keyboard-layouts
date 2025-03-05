@@ -9,7 +9,7 @@ Name:       harbour-multi-keyboard-layouts
 # << macros
 
 Summary:    Multi Keyboard Layouts
-Version:    0.8.0
+Version:    0.8.1
 Release:    0
 Group:      Qt/Qt
 License:    LICENSE

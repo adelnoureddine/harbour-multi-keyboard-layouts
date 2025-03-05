@@ -71,3 +71,6 @@
 * Wed Jun 19 2024 Adel Noureddine 0.8.0-1
 - Fix large space bar that appeared with latest SFOS versions
 - Add Dutch Azerty keyboard (Belgisch AZERTY)
+
+* Wed Mar 05 2025 Adel Noureddine 0.8.1-1
+- Fix simple quote character too small on Azerty improved keyboard layouts
