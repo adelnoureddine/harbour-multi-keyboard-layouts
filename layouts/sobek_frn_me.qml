@@ -143,7 +143,7 @@ KeyboardLayout {
         }
         CharacterKey { caption: "r"; captionShifted: "R"; symView: "4"; symView2: "¥"; accents: "|"; accentsShifted: "|";
             Text {
-                text: showSymbolsOnKey("~");
+                text: showSymbolsOnKey("|");
                 color: Theme.highlightColor;
                 anchors {
                     horizontalCenter: parent.horizontalCenter
